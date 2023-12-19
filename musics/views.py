@@ -14,8 +14,8 @@ import json
 from django.http import JsonResponse
 from django.contrib.staticfiles import finders
 
-CLIENT_ID = "3c124517da7d4030961c07e2fb115322"
-CLIENT_SECRET = "1356b1e126ec42eeafd8f9f9d4eaf140"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=CLIENT_ID,
                                                            client_secret=CLIENT_SECRET))
